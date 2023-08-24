@@ -1,0 +1,333 @@
+.descrwrapper-ts5500 {
+    width: 100%;
+    max-width: 1330px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.descrwrapper-ts5500 * {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Gilroy';
+    box-sizing: border-box;
+  
+}
+
+
+.beneficial {
+    position: absolute;
+    bottom: 3vh;
+    left: 21vw;
+    font-size: 5vh;
+    color: #FFF;
+    width: 500px;
+    text-align: center;
+}
+
+.essential {
+    position: relative;
+            bottom: 16vh;
+            left: 1vw;
+            font-size: 5vh;
+            color: #FFF;
+            text-align: center;
+            line-height: 40px;
+}
+
+.desctiption-tm6-imageContainer {
+    width: 100%;
+    height: auto;
+    margin-top: -17vh;
+}
+
+.description-tm6-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1330px;
+}
+
+.description-tm6-logo {
+    width: 92px;
+    height: 32px;
+    margin-right: 1vw;
+}
+
+.description-tm6-textContainer {
+    text-align: center;
+    margin-top: 20px;
+    color: #000;
+    width: 100%;
+}
+
+.description-tm6-textContainer p {
+    flex-direction: row;
+}
+
+.desctiption-ts5500-imageContainer {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.desctiption-ts5500-imageContainer:nth-child(1) {
+    margin-top: 20px;
+}
+
+.stage-details {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 45px;
+}
+
+.stage-details-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 300px;
+}
+
+.stage-details-card:nth-child(2) img {
+    width: 60px;
+    height: 55px;
+}
+
+.stage-details-card h2 {
+    margin-top: 10px;
+}
+
+.stage-details-card p {
+    margin-top: 5px;
+    font-size: 1vw;
+}
+
+
+.stage-image {
+    width: 80px;
+    height: 55px;
+}
+
+.description-tm6-chars {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 60px;
+}
+
+.description-tm6-chars-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.stage-imageContainer {
+    width: 350px;
+    height: 350px;
+}
+
+.description-tm6-chars-item p {
+    width: 300px;
+    text-align: left;
+    font-size: 3vh;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.description-tm6-chars-item img {
+    margin-top: 20px;
+}
+
+.description-tm6-chars-item h2 {
+    margin-top: 10px;
+}
+
+
+.description-tm6-chars-item:nth-child(2) {
+    flex-direction: column-reverse;
+    top: -50px;
+}
+
+.description-tm6-chars-item:nth-child(5) {
+    flex-direction: column-reverse;
+    top: -30px;
+}
+
+.description-tm6-chars-item:nth-child(8) {
+    flex-direction: column-reverse;
+    top: -20px;
+}
+
+@media  screen and (width : 1024px) {
+    .description-tm6-textContainer {
+        margin-top: -50vh;
+    }
+    .description-tm6-imageContainer {
+        margin-top: -40vh;
+    }
+
+    .description-tm6-textContainer {
+        bottom: 0;
+    }
+
+    .description-tm6-chars {margin-top: 10vh;}
+
+    .beneficial {
+        bottom: 2vh;
+        left: 31vw;
+    }
+}
+
+@media screen and (width < 900px) {
+    .description-tm6-textContainer {
+        top: -4vw;
+    }
+
+
+    .stage-details-card:nth-child(2) img {
+        width: 45px;
+        height: 42px;
+    }
+
+    .stage-image {
+        width: 50px;
+        height: 45px;
+    }
+
+    .stand {
+        margin-top: 150px !important;
+    }
+}
+
+@media screen and (width < 769px) {
+    .description-tm6-chars {
+        display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .description-tm6-imageContainer {
+        margin-top: -27vh;
+    }
+
+    .beneficial {
+      bottom: 0vh;
+      left: 26vw;
+      font-size: 5vw;
+    }
+
+    .essential {
+        bottom: 13vh;
+        left: 1vw;
+        font-size: 4vh;
+    }
+  .desctiption-tm6-imageContainer {
+    margin-top: -21vh;
+}
+  .description-tm6-chars-item:nth-child(2) {
+    flex-direction: column;
+     top: 0px; 
+}
+  .description-tm6-chars-item:nth-child(5) {
+    flex-direction: column;
+     top: 0px; 
+}
+}
+
+
+@media screen and (width < 619px) {
+    
+
+    .stage-details {
+        gap: 20px;
+        margin-top: 0;
+    }
+
+    .description-tm6-textContainer h1 {
+        font-size: 30px !important;
+        position: relative;
+        top: 16vh;
+    }
+
+    .description-tm6-logo {
+        width: 53px;
+        height: 16px;
+    }
+
+    .description-tm6-textContainer p {
+        font-size: 12px;
+    }
+
+    .description-tm6-chars-item:nth-child(2) {
+        flex-direction: column;
+        top: 0;
+    }
+
+    .description-tm6-chars-item:nth-child(5) {
+        flex-direction: column;
+        top: 0;
+    }
+
+    .description-tm6-chars-item:nth-child(8) {
+        flex-direction: column;
+        top: 0;
+    }
+}
+
+@media screen and (width < 560px) {
+    .stage-details {
+        top: 25vw;
+    }
+}
+
+@media screen and (width < 520px) {
+    .stage-details {
+        top: 25vw;
+    }
+}
+
+@media screen and (width < 426px) {
+    .stage-details {
+        top: 5vw;
+    }
+
+    .beneficial {
+        bottom: 1vh;
+        right: 12vw;
+    }
+
+    .essential {
+        bottom: 7vh;
+        left: 1vw;
+        font-size: 2vh;
+        line-height: 20px;
+    }
+
+    .stand {
+        margin-top: 35px !important;
+    }
+
+    .stage-details-card p {
+        font-size: 3vw;
+    }
+
+    .description-tm6-textContainer h1 {
+        top: 19vh;
+    }
+}
+
+@media screen and (width < 376px) {
+    .stage-details {
+        top: 8vw;
+    }
+}
